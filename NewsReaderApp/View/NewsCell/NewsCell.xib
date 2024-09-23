@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleAspectFit" id="jmb-56-NPw" customClass="NewsCell" customModule="NewsReaderApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="176" height="250"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="product3" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fPq-M7-rGO">
+                    <rect key="frame" x="10" y="10" width="156" height="87.666666666666671"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="fPq-M7-rGO" secondAttribute="height" multiplier="16:9" id="lGu-Ei-AxK"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DzI-ub-CAG">
+                    <rect key="frame" x="10" y="107.66666666666667" width="156" height="15.666666666666671"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NXv-Uf-MY6">
+                    <rect key="frame" x="10" y="205" width="156" height="35"/>
+                    <color key="backgroundColor" red="0.22352941179999999" green="0.73333333329999995" blue="0.65490196079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="s9S-R3-ZdF"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Detail">
+                        <fontDescription key="titleFontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="buyButtonAction:" destination="jmb-56-NPw" eventType="touchUpInside" id="p4B-bc-xNv"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="7ob-iV-ov6"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="DzI-ub-CAG" firstAttribute="top" secondItem="fPq-M7-rGO" secondAttribute="bottom" constant="10" id="4kT-2p-rc2"/>
+                <constraint firstItem="fPq-M7-rGO" firstAttribute="leading" secondItem="7ob-iV-ov6" secondAttribute="leading" constant="10" id="4yp-E6-gsc"/>
+                <constraint firstAttribute="bottom" secondItem="NXv-Uf-MY6" secondAttribute="bottom" constant="10" id="APc-7r-OG5"/>
+                <constraint firstItem="fPq-M7-rGO" firstAttribute="top" secondItem="jmb-56-NPw" secondAttribute="top" constant="10" id="GAg-pg-dic"/>
+                <constraint firstItem="DzI-ub-CAG" firstAttribute="leading" secondItem="7ob-iV-ov6" secondAttribute="leading" constant="10" id="Gg6-qV-ABv"/>
+                <constraint firstItem="7ob-iV-ov6" firstAttribute="trailing" secondItem="NXv-Uf-MY6" secondAttribute="trailing" constant="10" id="LCk-Ip-Ry0"/>
+                <constraint firstItem="NXv-Uf-MY6" firstAttribute="top" relation="greaterThanOrEqual" secondItem="DzI-ub-CAG" secondAttribute="bottom" constant="5" id="SvG-Wm-YaC"/>
+                <constraint firstItem="7ob-iV-ov6" firstAttribute="trailing" secondItem="DzI-ub-CAG" secondAttribute="trailing" constant="10" id="fr2-Zv-ErH"/>
+                <constraint firstAttribute="trailing" secondItem="fPq-M7-rGO" secondAttribute="trailing" constant="10" id="tIP-vR-Ads"/>
+                <constraint firstItem="NXv-Uf-MY6" firstAttribute="leading" secondItem="7ob-iV-ov6" secondAttribute="leading" constant="10" id="zib-fb-gwd"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="buttonBuyNow" destination="NXv-Uf-MY6" id="0bz-T5-Jg2"/>
+                <outlet property="imageView" destination="fPq-M7-rGO" id="oXN-du-XDn"/>
+                <outlet property="titleLabel" destination="DzI-ub-CAG" id="yKx-aC-jMa"/>
+            </connections>
+            <point key="canvasLocation" x="-122.13740458015266" y="-6.6901408450704229"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="product3" width="438" height="590"/>
+    </resources>
+</document>

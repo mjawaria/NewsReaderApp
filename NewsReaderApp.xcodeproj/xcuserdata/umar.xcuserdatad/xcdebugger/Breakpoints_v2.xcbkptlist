@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "19AC7D89-19A2-4F18-98EC-DAA88C14A305"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CDA72FDE-6BF8-4B72-BDBE-939B8FABEDB3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewsReaderApp/View/NewsListController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CDA72FDE-6BF8-4B72-BDBE-939B8FABEDB3 - 1e6d2fbb46d741a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewsReaderApp.NewsListController.viewDidLoad() -&gt; ()"
+                  moduleName = "NewsReaderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umar/Documents/Assignment/NewsReaderApp/NewsReaderApp/NewsReaderApp/View/NewsListController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "CDA72FDE-6BF8-4B72-BDBE-939B8FABEDB3 - 1e6d2fbb46d741a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewsReaderApp.NewsListController.viewDidLoad() -&gt; ()"
+                  moduleName = "NewsReaderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umar/Documents/Assignment/NewsReaderApp/NewsReaderApp/NewsReaderApp/View/NewsListController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "336">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4093D198-6268-4F11-AAC0-20B0A031B3FF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewsReaderApp/View/NewsListController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "setupCollectionView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4093D198-6268-4F11-AAC0-20B0A031B3FF - 18d7b448a7aa5ef8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewsReaderApp.NewsListController.setupCollectionView() -&gt; ()"
+                  moduleName = "NewsReaderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umar/Documents/Assignment/NewsReaderApp/NewsReaderApp/NewsReaderApp/View/NewsListController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "992">
+               </Location>
+               <Location
+                  uuid = "4093D198-6268-4F11-AAC0-20B0A031B3FF - 18d7b448a7aa5ef8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewsReaderApp.NewsListController.setupCollectionView() -&gt; ()"
+                  moduleName = "NewsReaderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umar/Documents/Assignment/NewsReaderApp/NewsReaderApp/NewsReaderApp/View/NewsListController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "292">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A78AF8C-A3FB-4DBB-ABAA-D8872C2C6F63"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewsReaderApp/NewsAPIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "086E4C29-4A5E-4BB4-A167-73273216C022"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewsReaderApp/View/NewsListController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
